@@ -1,0 +1,84 @@
+html{
+  font-family: 'Asap', sans-serif;
+    background-image: url("http://1.bp.blogspot.com/-ydhpIiR5DrU/T9KcxUHX8NI/AAAAAAAAACU/Zr4WtOCTX-0/s1600/14531-daft-punk-white-music.jpg");
+    background-size: cover;
+
+   
+}
+
+/*hide the results and details by default*/
+
+#results, #details {
+   display:none;
+   
+}
+
+section{
+   background:rgba(255, 255, 255, 0.61);
+   margin:auto;
+   margin-top:20px;
+   max-width: 800px;
+   padding:20px;
+   border-radius: 20px;
+   align: center;
+   
+   
+   
+}
+
+img#logo{
+   margin:auto;
+   width:50%;
+   display:block;
+   
+}
+
+
+button{
+   border: none;
+   padding: 20px;
+   border-radius: 50%;
+   width:100px;
+   height:100px;
+   margin-top: 10px;
+   
+}
+
+select, button {
+   width:50%;
+   background: black;
+   color: white;
+   font-size: 150%;
+   align: center;
+   
+   
+}
+
+
+<style type="text/css">
+    #scroller {
+        background position: bottom;
+        background-attachment: scroll, fixed;
+        
+    }
+    #scroller .innerScrollArea {
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    #scroller ul {
+        padding: 0;
+        margin: 0;
+        position: relative;
+    }
+    #scroller li {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        position: absolute;
+    }
+</style>
+
