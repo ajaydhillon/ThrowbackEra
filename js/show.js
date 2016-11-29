@@ -12,7 +12,7 @@ function makeListItemHTML (data, index)
   // li = List Item
   var li  = '<li id="' + index + '">'
   + '<img src="' + data.image + '">' 
-  + '<h2>' + data.name + '</h2>' 
+  + '<h2>' + data.songname + '</h2>' 
   + '</li>'
 
   return li;        
@@ -32,7 +32,7 @@ function makeDetailsHTML (data)
 
   var html = '<h2>' + data.name  + '</h2>' 
   + '<img src="' + data.image + '">' 
-  + '<p>' + data.about + '</p>'
+  + '<p>' + data.history + '</p>'
   + '<a class="contact button">Contact ' + data.name + '</a>'
 
   return html;        

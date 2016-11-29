@@ -14,17 +14,17 @@ console.log("firebase.js ready to roll!")
 //this is the whole database
 var database = firebase.database();
 
-//we want to grab only the "people" part of the DB
-var peopleData = database.ref('people');
+//we want to grab only the "albums" part of the DB
+var albumsData = database.ref('albums');
 
-//create a list of people
-var peopleList = []; 
+//create a list of albums
+var albumsList = []; 
 
-//load all the children of "people"
+//load all the children of "albums"
 //keep listening for new children
-peopleData.on('child_added', function(childData){
+albumsData.on('child_added', function(childData){
     //run these instruction for each child
 //    console.table( childData.val() );
-    var person = childData.val(); // extract data about the person
-    peopleList.push( person ); // add the peron to the people 
+    var album = childData.val(); // extract data about the person
+    albumsList.push( album ); // add the album to the albums 
 });
