@@ -25,8 +25,8 @@ HomeButtonGo.click(function(){
     var filters = 
         [
             {
-                key:'genre',
-                value: chosenGenre
+                key: chosenGenre
+                // either "R&B" or "Hip-Hop"
             },
             {
                 key: chosenEra
@@ -36,12 +36,12 @@ HomeButtonGo.click(function(){
         ]
     
     // filter+sort people by user selection
-    resultsList = filterAndSortList (albumsList, filters);
-    console.log(resultsList);
+    resultsList = filterAndSortList (albumsList, filters)
+    console.log(resultsList)
     
 
     // show the results in the #results section
-    showList(resultsList, resultsOL);
+    showList(resultsList, resultsOL)
     //addMarkers(resultsList)
 
     

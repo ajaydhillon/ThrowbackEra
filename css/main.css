@@ -33,7 +33,23 @@ img#logo{
    
 }
 
-
+.button {
+   background:#adadad ;
+   border-style: solid;
+   border-width: 1px;
+   border-radius: 15px;
+   border-color: white;
+   display:inline-block;
+   color:white;
+   padding: 10px;
+   text-decoration: none;
+   text-align: center;
+}
+.button:hover {
+    background:#cecece ;
+    
+    
+}
 button{
    background: white;
    border: none;
@@ -76,6 +92,10 @@ p
  color: white; 
 }
 
+img{
+   max-width: 100%;
+   height: auto;
+}
 
 #scroller {
         position: static;

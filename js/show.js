@@ -30,10 +30,9 @@ function makeDetailsHTML (data)
     <a class="contact button">Contact Matteo</a>
   */
 
-  var html = '<h2>' + data.name  + '</h2>' 
+  var html = '<h2>' + data.songname  + '</h2>' 
   + '<img src="' + data.image + '">' 
   + '<p>' + data.history + '</p>'
-  + '<a class="contact button">Contact ' + data.name + '</a>'
 
   return html;        
 }
