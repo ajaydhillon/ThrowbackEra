@@ -2,7 +2,7 @@ console.log("firebase.js ready to roll!")
 // Connects to the firebase DB
 
 // Initialize Firebase
-  var config = {
+ var config = {
     apiKey: "AIzaSyDzxeE3gBHUQfyRB_1CWvqEpQSo38tGHls",
     authDomain: "hiphop-8f5da.firebaseapp.com",
     databaseURL: "https://hiphop-8f5da.firebaseio.com",
@@ -10,6 +10,7 @@ console.log("firebase.js ready to roll!")
     messagingSenderId: "459642016287"
   };
   firebase.initializeApp(config);
+
 
 //this is the whole database
 var database = firebase.database();

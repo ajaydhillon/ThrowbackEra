@@ -26,10 +26,10 @@ HomeButtonGo.click(function(){
         [
             {
                 key:'genre',
-                value: chosenEra
+                value: chosenGenre
             },
             {
-                key: chosenGenre 
+                key: chosenEra
                 
             }
             
